@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+header {
+	background-color: #009e49;
+}
+
+.title {
+	padding: 10px;
+}
+
+h1 {
+	font-family: "Book Antiqua", "Times New Roman";
+	color: white;
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Book Antiqua", "Times New Roman";
+	color: white;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: normal;
+}
+
+.stripe {
+	width: 100%;
+	height: 3px;
+}
+
+.red {
+	background-color: #ef3340;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.orange {
+	background-color: #fcad56;
+}
+
+#menu_toggle {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 5px;
+}
