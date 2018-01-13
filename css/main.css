@@ -62,13 +62,20 @@ h3 {
 	display: block;
 }
 
+#mainMenu ul {
+	margin: 0;
+	padding: 0;
+}
+
 #mainMenu a {
 	display: block;
 	width: 100%;
 	background-color: black;
-	color: white;
-	padding: 2px 2px 2px 20px;
 	border-top: 1px solid #fcad56;
+	list-style: none;
+	padding: 2px 2px 2px 20px;
+	box-sizing: border-box;
+	color: white;
 	text-decoration: none;
 }
 
