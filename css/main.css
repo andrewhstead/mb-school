@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #ffffff;
+	background-color: #bbddbb;
 }
 
 header {
@@ -96,13 +96,29 @@ nav a:active {
 }
 
 main {
-	margin: 10px;
+	padding: 10px 0 10px 0;
 	text-align: justify;
+	background-color: #ffffff;
 }
 
 main h2 {
 	font-size: 1.5em;
 	margin: 0 0 10px 0;
+}
+
+main p {
+	padding: 0 20px 0 20px;
+}
+
+p.centreText {
+	text-align: center;
+}
+
+.homeImage {
+	width: 100%;
+	border-top: 1px solid #fcad56;
+	border-bottom: 1px solid #fcad56;
+	box-shadow: 0px 0px 2px 2px #fcad56;
 }
 
 footer {
@@ -125,7 +141,7 @@ footer {
 
 .divider {
 	width: 1px;
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 a.footerLink {
