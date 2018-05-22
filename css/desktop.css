@@ -25,3 +25,7 @@ body {
 .menuLink:last-of-type {
 	border-bottom: none;
 }
+
+main {
+	font-size: 1.1em;
+}
