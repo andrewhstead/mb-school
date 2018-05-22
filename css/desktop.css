@@ -1,0 +1,27 @@
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#menuHeader {
+	display: none;
+}
+
+.toggle {
+	display: block;
+}
+
+#mainMenu {
+	display: flex;
+}
+
+.menuLink {
+	flex: 1;
+	display: inline;
+	padding: 2px;
+	text-align: center;
+}
+
+.menuLink:last-of-type {
+	border-bottom: none;
+}

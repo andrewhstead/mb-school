@@ -62,12 +62,11 @@ h3 {
 	display: block;
 }
 
-#mainMenu ul {
-	margin: 0;
-	padding: 0;
+#mainMenu {
+	position: relative;
 }
 
-#mainMenu a {
+.menuLink {
 	display: block;
 	width: 100%;
 	background-color: black;
@@ -79,11 +78,11 @@ h3 {
 	text-decoration: none;
 }
 
-#mainMenu a:last-of-type {
+.menuLink:last-of-type {
 	border-bottom: 1px solid #fcad56;
 }
 
-#mainMenu a:hover {
+.menuLink:hover {
 	background-color: #ef3340;
 	color: black;
 	text-decoration: underline;
